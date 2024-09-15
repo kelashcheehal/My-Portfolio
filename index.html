@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./Images/logo.png" alt=""></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="./Images/hamburger.png" alt="" width="20">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                </ul>
+                <div class="d-none d-lg-block ms-3">
+                    <button class="btn btn-primary">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid feature-section px-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="intro-text">Hey, I am John</p>
+                <h1 class="display-4">I create <span class="highlight">product design</span> and brand experience</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                    elementum tristique.</p>
+                <a href="#" class="btn btn-primary btn-lg">Get In Touch</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="./Images/user1.png" alt="John" class="img-fluid rounded feature-image">
+            </div>
+        </div>
+    </div>
+
+    <section class="my-expertise py-5 px-5 container-fluid">
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col ">
+                    <h6>My Skills</h6>
+                    <h2 class="fw-bold">My Expertise</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body ">
+                            <img src="./Images/Strategy 1.png" alt="Strategy Icon" class="mb-3 icon">
+                            <h5 class="card-title">Strategy & Direction</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body ">
+                            <img src="./Images/strategy 2.png" alt="Branding Icon" class="mb-3 icon">
+                            <h5 class="card-title">Branding & Logo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body ">
+                            <img src="./Images/stratedy 3.png" alt="UI/UX Design Icon" class="mb-3 icon">
+                            <h5 class="card-title">UI & UX Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body ">
+                            <img src="./Images/stratedy 4.png" alt="Webflow Icon" class="mb-3 icon">
+                            <h5 class="card-title">Webflow Development</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-section ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="./Images/user2.png" alt="About Image" class="about-img">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <small>About</small>
+                        <h2>About Me</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa
+                            sollicitudin amet.</p>
+                        <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio px-5">
+        <div class="container-fluid">
+            <div class=" mb-4">
+                <h5>Recent Projects</h5>
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 py-2">
+                    <div class="card shadow-sm">
+                        <img src="./Images/card1.png" class="card-img-top" alt="Ahuse Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Ahuse</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros.</p>
+                            <a href="#" class="btn btn-link">View in Dribbble &#8599;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 py-2">
+                    <div class="card shadow-sm">
+                        <img src="./Images/card2.png" class="card-img-top" alt="App Dashboard Project">
+                        <div class="card-body">
+                            <h5 class="card-title">App Dashboard</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros.</p>
+                            <a href="#" class="btn btn-link">View in Dribbble &#8599;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 py-2">
+                    <div class="card shadow-sm">
+                        <img src="./Images/card3.png" class="card-img-top" alt="Easy Rent Project">
+                        <div class="card-body">
+                            <h5 class="card-title">Easy Rent</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                varius enim in eros.</p>
+                            <a href="#" class="btn btn-link">View in Dribbble &#8599;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonials px-5">
+        <div class="container-fluid">
+            <div class=" mb-5">
+                <h6>Clients Feedback</h6>
+                <h2 class="fw-bold">Customer Testimonials</h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial 1 -->
+                <div class="col-md-4 my-2">
+                    <div class="testimonial-card p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rating text-success me-2">
+                                <!-- Star icons -->
+                                <i class="fas fa-star"><img src="./Images/Stars.png" alt="" width="100"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros elementum tristique."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="./Images/Avatar Image.png" alt="Customer" class="rounded-circle me-3" width="50"
+                                height="50">
+                            <div>
+                                <h6 class="mb-0">Dianne Russell</h6>
+                                <small class="text-muted">Starbucks</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-md-4 my-2">
+                    <div class="testimonial-card p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rating text-success me-2">
+                                <!-- Star icons -->
+                                <i class="fas fa-star"><img src="./Images/Stars.png" alt="" width="100"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros elementum tristique."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="./Images/Avatar Image (2).png" alt="Customer" class="rounded-circle me-3"
+                                width="50" height="50">
+                            <div>
+                                <h6 class="mb-0">Kristin Watson</h6>
+                                <small class="text-muted">Louis Vuitton</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 my-2">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rating text-success me-2">
+                                <!-- Star icons -->
+                                <i class="fas fa-star"><img src="./Images/Stars.png" alt="" width="100"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros elementum tristique."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="./Images/Avatar Image (3).png" alt="Customer" class="rounded-circle me-3"
+                                width="50" height="50">
+                            <div>
+                                <h6 class="mb-0">Kathryn Murphy</h6>
+                                <small class="text-muted">McDonald's</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container text-center text-light">
+            <h6 class="text-uppercase text-muted">Get In Touch</h6>
+            <h2 class="mb-4 fw-bold">Contact me</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="First name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Last name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control form-control-lg" placeholder="Email" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Phone number" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <select class="form-select form-select-lg" required>
+                            <option value="" disabled selected>Choose a topic</option>
+                            <option value="1">General Inquiry</option>
+                            <option value="2">Support</option>
+                            <option value="3">Feedback</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <textarea class="form-control form-control-lg" rows="5" placeholder="Type your message..."
+                            required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-check text-start mb-4">
+                    <input type="checkbox" class="form-check-input" id="termsCheck" required>
+                    <label class="form-check-label" for="termsCheck">I accept the terms</label>
+                </div>
+
+                <button type="submit" class="btn btn-lg btn-primary btn-2 w-50">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+<!-- Footer -->
+<footer class="footer mt-5 py-5">
+    <div class="container-fluid">
+        <!-- First Row: Logo, Navigation, Social Media -->
+        <div class="row align-items-center">
+            <!-- Logo Section -->
+            <div class="col-md-4 text-md-start text-center mb-3 mb-md-0">
+                <img src="./Images/logo.png" alt="Logo" class="footer-logo"> <!-- Replace with your logo -->
+            </div>
+
+            <!-- Navigation Links Section -->
+            <div class="col-md-4 text-md-center text-center">
+                <nav class="footer-nav">
+                    <a href="#" class="text-dark mx-2">Home</a>
+                    <a href="#" class="text-dark mx-2">Portfolio</a>
+                    <a href="#" class="text-dark mx-2">About me</a>
+                    <a href="#" class="text-dark mx-2">Contact</a>
+                    <a href="#" class="text-dark mx-2">Testimonials</a>
+                </nav>
+            </div>
+
+            <!-- Social Media Icons Section -->
+            <div class="col-md-4 text-md-end text-center">
+                <div class="social-icons">
+                    <a href="#" class="text-light mx-2">
+                        <img src="./Images/Facebook.png" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="#" class="text-light mx-2">
+                        <img src="./Images/Instagram.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="#" class="text-light mx-2">
+                        <img src="./Images/Twitter.png" alt="Twitter" class="social-icon">
+                    </a>
+                    <a href="#" class="text-light mx-2">
+                        <img src="./Images/LinkedIn.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Second Row: Footer Bottom with text and links -->
+        <div class="row">
+            <div class="col-md-6 text-md-start text-center">
+                <span>Made with <span style="color: #e25555;">&#10084;</span> by Kailash</span>
+            </div>
+            <div class="col-md-6 text-md-end text-center privacy">
+                <a href="#" class="text-dark me-3">Privacy Policy</a>
+                <a href="#" class="text-dark me-3">Terms of Service</a>
+                <a href="#" class="text-dark">Cookies Settings</a>
+            </div>
+        </div>
+    </div>
+</footer>
+                                        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
