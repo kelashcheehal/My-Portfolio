@@ -312,15 +312,15 @@ h1 {
 
 @media screen and (max-width: 667px) {
     .navbar {
-        padding: 0 !important;
+        padding: 15px 10px !important;
     }
 
     .feature-section {
-        padding: 0 20px !important;
+        padding: 50px 20px !important;
     }
 
     .my-expertise {
-        padding: 0 10px !important;
+        padding: 50px 10px 0 10px !important;
     }
 
     .about-section {
@@ -347,24 +347,27 @@ h1 {
 
 @media screen and (min-width: 667px) and (max-width: 1024px) {
     .navbar {
-        padding: 0 !important;
+        padding: 15px 10px !important;
     }
 
     .feature-section {
-        padding: 0 20px !important;
+        padding: 50px 20px!important;
     }
+
+    .feature-section img{
+        width: 100% !important;
+    }
+
 
     .my-expertise {
-        padding: 0 10px !important;
-        margin-top: 50px;
+        padding: 50px 10px 0 10px !important;
     }
-
     .about-section {
-        padding: 0 10px !important;
+        padding: 50px 10px 0 10px !important;
     }
 
     .portfolio {
-        padding: 0 10px !important;
+        padding: 50px 10px 0 10px !important;
     }
 
     .testimonials {
